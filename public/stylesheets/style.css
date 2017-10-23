@@ -1,0 +1,89 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color:#333333;
+  cursor: pointer;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#tou{
+	overflow: hidden;
+}
+#tou ul{
+	float: right;
+	margin-top: 10px;
+}
+
+#tou ul li a{
+	margin-right: 20px;
+}
+#tou ul li span{
+	background: #3388ff;
+	color: #fff;
+	display: inline-block;
+	width: 60px;
+	height:24px;
+	line-height: 24px;
+	text-align:center;
+	margin-right: 10px;
+}
+#tou ul li a:hover{
+	color: #0000CC;
+}
+.img{
+	width: 270px;
+	height: 129px;
+	display: block;
+	margin: auto;
+}
+.inpu{
+	margin: auto;
+	width: 640px;
+}
+.inp{
+	width: 526px;
+	height: 28px;
+	margin-top: 20px;
+	text-indent: 20px;
+	background: url(../images/2017-10-23_193028_03.png) no-repeat right;
+	border:none;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-position:97%;
+}
+.sub{
+	width: 102px;
+	height: 30px;
+	background: #3385ff;
+	outline: none;
+	margin-top: 20px;
+	color: #fff;
+	border:none;
+}
+.er{
+	display: block;
+	margin: auto;
+	margin-top: 172px;
+}
+.er p{
+ text-align: center;
+ font-weight: bolder;
+}
+.footer p{
+	text-align: center;
+	margin-top: 24px;
+	color: #999;
+}
+.footer .p{
+	margin-top: 10px;
+}
+.footer p a{
+	margin-left: 15px;
+	color: #999;
+}
